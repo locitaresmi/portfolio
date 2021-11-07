@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #3A6351;
+  background-clip: content-box;
+  border: 2px solid transparent;
 }
 
-.App-header {
-  background-color: #282c34;
+html, body, #root, .App {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 24px;
+  color: #393232;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  color: #393232;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #393232;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #393232;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  h2 {
+    font-size: 23.3px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2{
+    font-size: 22px;
   }
 }
