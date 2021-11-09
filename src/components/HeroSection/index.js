@@ -45,7 +45,7 @@ const HeroSection = () => {
         <HeroContainer>
             <HeroContent initial="initial" animate='animate' variants={appearUp}>
                 <HeroH1>Hi! I’m Wening, a forever student.</HeroH1>
-                <HeroH1>My favourite subject is <HeroSpan initial={{ color:'#393232' }} animate={{ color:'#E48257' }} transition={{ delay: .7 }}>UX research</HeroSpan>.</HeroH1>
+                <HeroH1>I love learning about <HeroSpan initial={{ color:'#393232' }} animate={{ color:'#E48257' }} transition={{ delay: .7 }}>UX research</HeroSpan>.</HeroH1>
                 <LinkContainer initial="initial" animate='animate' variants={appearDown}>
                     <HeroLink to="/about">Get to know more about me</HeroLink>
                 </LinkContainer>
