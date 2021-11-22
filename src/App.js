@@ -29,7 +29,7 @@ function App() {
           <Route path="/" component={Home} exact />
           <Route path="/about" component={AboutPage} exact />
           <Route path="/resume" component={ResumePage} exact />
-          {/* <Route path="/2021-Twing" component={Gemastik2021} exact /> */}
+          <Route path="/2021-Twing" component={Gemastik2021} exact />
         </Switch>
       </AnimatePresence>
     </>

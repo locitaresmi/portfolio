@@ -48,7 +48,7 @@ const AboutSection = () => {
                         <TextWrapper>
                             <Heading>Hello!</Heading>
                             <Paragraph>I’m a third-year information system student and a junior UX researcher. I’m passionate about making people’s lives better and easier through technology. UX research, for me,  is the right place to channel my passion.</Paragraph>
-                            <Paragraph>This website is intended to showcase my prior UX research experiences. There’s still a lot of room for improvement in my previous projects, so any feedbacks are super welcomed (and needed!). Reach out to me via <LinkSpan href="https://www.linkedin.com/in/locitaresmi/" target="_blank">my LinkedIn</LinkSpan> or <LinkSpan href="mailto:locitaresmi@gmail.com">email me directly to locitaresmi@gmail.com</LinkSpan>.</Paragraph>
+                            <Paragraph>I made this website to showcase my prior UX research experiences. There’s still a lot of room for improvement in my previous projects, so any feedback is super welcomed (and needed!). Reach out to me via <LinkSpan href="https://www.linkedin.com/in/locitaresmi/" target="_blank">my LinkedIn</LinkSpan> or <LinkSpan href="mailto:locitaresmi@gmail.com">email me directly to locitaresmi@gmail.com</LinkSpan>.</Paragraph>
                             <Paragraph>I also share my thoughts sometimes on <LinkSpan href="https://locitaresmi.medium.com/" target="_blank">Medium</LinkSpan>.</Paragraph>
                         </TextWrapper>
                         {/* <SocialMediaRow>

@@ -54,18 +54,18 @@ export const ContentImageContainer = styled.div`
     }
 `
 
-export const ContentImage = styled.img`
-    max-width: inherit;
-    /* height: inherit; */
-    margin: 0;
-    padding: 0;
-    cursor: zoom-in;
+// export const ContentImage = styled.img`
+//     max-width: inherit;
+//     /* height: inherit; */
+//     margin: 0;
+//     padding: 0;
+//     cursor: zoom-in;
 
-    /* @media screen and (min-width:768px) {
-        max-height: inherit;
-    } */
+//     /* @media screen and (min-width:768px) {
+//         max-height: inherit;
+//     } */
 
-`
+// `
 export const TextContainer = styled.div`
     margin-right: auto;
     margin-left: auto;
@@ -211,6 +211,7 @@ export const SidebarHeading = styled.h3`
 
 export const ProjectList = styled.ul`
     list-style-position: inside;
+    margin-bottom: 24px;
 `
 
 export const ProjectListItem = styled.li`

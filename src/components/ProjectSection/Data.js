@@ -1,5 +1,5 @@
 export const project1 = {
-    id: '#',
+    id: '2021-Twing',
     projectYear: 2021,
     projectTitle: 'GEMASTIK 14 Final UX Design',
     projectIssuer: 'Ministry of Education, Culture, Research and Technology of Indonesia',

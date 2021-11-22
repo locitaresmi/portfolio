@@ -51,6 +51,15 @@ h3 {
   color: #393232;
 }
 
+img {
+  max-width: inherit;
+  height: auto;
+}
+
+.medium-zoom-overlay {
+  margin-top: 40vh;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 40px;

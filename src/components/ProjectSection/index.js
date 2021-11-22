@@ -82,7 +82,7 @@ const ProjectSection = ({id, projectYear, projectTitle, projectIssuer, projectIm
                                 <ImgOverlay>
                                     {/* <ProductName>{productName}</ProductName>
                                     <ProductDescription>{productDescription}</ProductDescription> */}
-                                    <AdditionalDescription>Click to view project (Coming soon!)</AdditionalDescription>
+                                    <AdditionalDescription>Click to view project</AdditionalDescription>
                                 </ImgOverlay>
                             </ProjectLink>
                         </ImgWrap>
