@@ -66,12 +66,19 @@ export const ContentImageContainer = styled.div`
 //     } */
 
 // `
+
+export const ImageCaption = styled.p`
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+`
+
 export const TextContainer = styled.div`
     margin-right: auto;
     margin-left: auto;
     padding: 24px 0 24px 0;
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
 `
 
 export const ProjectHeading = styled.h1`
@@ -100,9 +107,9 @@ export const ProjectParagraph = styled.p`
 export const ProjectRow = styled.div`
     display: grid;
     /* grid-auto-columns: minmax(auto, 1fr); */
-    grid-template-columns: 0.8fr 1.2fr;
+    grid-template-columns: 1.2fr 0.6fr ;
     /* align-items: center; */
-    grid-template-areas: 'col2 col1';
+    grid-template-areas: 'col1 col2';
     width: 100%;
 
     @media screen and (max-width: 768px) {

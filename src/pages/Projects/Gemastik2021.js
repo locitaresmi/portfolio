@@ -1,13 +1,13 @@
 import React from 'react'
-import { ProjectContainer, ProjectWrapper, ImageContainer, Image, Sidebar, SidebarMenu, SidebarItem, SidebarLink, TextContainer, ProjectHeading, ProjectParagraph, ProjectRow, TextColumn, ProjectSection, ProjectSubHeading, SidebarHeading, ProjectMainPoints, ContentImageContainer, ProjectList, ProjectListItem, ListSpan, ProjectTrivia, TriviaParagraph } from './ProjectElement'
-import Header from '../../images/Twing Header.jpg'
-import Interview from '../../images/Twing Interview Process.jpg'
-import Process from '../../images/Twing Design Process.jpg'
-import Persona1 from '../../images/Twing Persona 1.jpg'
-import Persona2 from '../../images/Twing Persona 2.jpg'
-import ExpertReview from '../../images/Twing Expert Review.jpg'
-import SurveyResult from '../../images/Twing Survey Result.jpg'
-import Brainstorming from '../../images/Twing Brainstorming Process.jpg'
+import { ProjectContainer, ProjectWrapper, ImageContainer, Image, Sidebar, SidebarMenu, SidebarItem, SidebarLink, TextContainer, ProjectHeading, ProjectParagraph, ProjectRow, TextColumn, ProjectSection, ProjectSubHeading, SidebarHeading, ProjectMainPoints, ContentImageContainer, ImageCaption, ProjectList, ProjectListItem, ListSpan, ProjectTrivia, TriviaParagraph } from './ProjectElement'
+import Header from '../../images/Twing Header.webp'
+import Interview from '../../images/Twing Interview Process.webp'
+import Process from '../../images/Twing Design Process.webp'
+import Persona1 from '../../images/Twing Persona 1.webp'
+import Persona2 from '../../images/Twing Persona 2.webp'
+import ExpertReview from '../../images/Twing Expert Review.webp'
+import SurveyResult from '../../images/Twing Survey Result.webp'
+import Brainstorming from '../../images/Twing Brainstorming Process.webp'
 import ScrollToTop from '../../components/ScrollToTop'
 import { motion } from 'framer-motion'
 import Footer from '../../components/Footer'
@@ -112,6 +112,7 @@ const Gemastik2021 = () => {
                                             alt="Twing Survey Result"
                                             zoom={zoom.current}
                                         />
+                                        <ImageCaption>Twing Survey Result</ImageCaption>
                                     </ContentImageContainer>
                                     <ProjectParagraph>After the survey, we conducted several interviews with ten people to deepen our understanding of the problem. From the interview, we learned that one of the most common reasons people keep experiencing CVS is that they lack consciousness when using their phones, mainly when they open social media or entertainment-related applications. This lack of consciousness leads to increased screen time and, not infrequently, bad postures, leading to CVS.</ProjectParagraph>
                                     <ProjectTrivia>
@@ -123,6 +124,7 @@ const Gemastik2021 = () => {
                                             alt="Twing User Interview Process"
                                             zoom={zoom.current}
                                         />
+                                        <ImageCaption>Twing User Interview Process</ImageCaption>
                                     </ContentImageContainer>
                                 </ProjectSection>
                                 <ProjectSection id='section2'>
@@ -135,6 +137,7 @@ const Gemastik2021 = () => {
                                             alt="Twing Design Process"
                                             zoom={zoom.current}
                                         />
+                                        <ImageCaption>Twing Design Process</ImageCaption>
                                     </ContentImageContainer>
                                     <ProjectParagraph>We categorised the users into two groups of personas based on the survey and interview that we’ve conducted earlier.  These two groups had problems that they were most likely to face. The first group represents people who mainly use their phones to fill their free time. The second group represents people who mainly use their phones to communicate or do other work-related activities.</ProjectParagraph>
                                     <ContentImageContainer>
@@ -150,6 +153,7 @@ const Gemastik2021 = () => {
                                             alt="Twing Persona 2"
                                             zoom={zoom.current}
                                         />
+                                        <ImageCaption>Twing Persona</ImageCaption>
                                     </ContentImageContainer>
                                 </ProjectSection>
                                 <ProjectSection id='section3'>
@@ -162,6 +166,7 @@ const Gemastik2021 = () => {
                                             alt="Twing Brainstorming Process"
                                             zoom={zoom.current}
                                         />
+                                        <ImageCaption>Twing Brainstorming Process</ImageCaption>
                                     </ContentImageContainer>
                                     <ProjectParagraph>We decided to choose two out of five main problems that we had found. We chose these problems because they were the ones that aligned with our mission, which was to help the users solve their problems themselves since CVS has always been about digital users’ behaviour. These problems include:</ProjectParagraph>
                                     <ProjectList>
@@ -188,12 +193,13 @@ const Gemastik2021 = () => {
                                             alt="Twing Expert Review"
                                             zoom={zoom.current}
                                         />
+                                        <ImageCaption>Twing Expert Review Process</ImageCaption>
                                     </ContentImageContainer>
                                     <ProjectParagraph>From this journey, I learned a lot of new things, mainly because we didn’t win the competition (lol). But I’m glad that I’ve found the joy in doing research. Here are some of the main takeaways that I’ve learned.</ProjectParagraph>
                                     <ProjectList>
                                         <ProjectListItem><ListSpan>User participation and feedback are mandatory, but the researcher is the one who has control over his research.</ListSpan> I was quite overwhelmed at first because our team received a lot of feedback from our users. Knowing what to put and what not to put into the design is necessary.</ProjectListItem>
                                         <ProjectListItem><ListSpan>Assumptions must be validated</ListSpan> (or at least supported). We did a lot of brainstorming throughout the journey, resulting in many assumptions about the solution, which we thought was perfect for the user. That kind of thought could lead to biases.</ProjectListItem>
-                                        <ProjectListItem><ListSpan>Think in the present.</ListSpan> However, we didn’t. We thought that ideas were everything that mattered in designing a product. In reality, not all ideas could be implemented (yet) because of technological limitations. Thinking in the present and knowing the technology that we’ll use are mandatory in product design.</ProjectListItem>
+                                        <ProjectListItem><ListSpan>Be realistic.</ListSpan> Sadly, we didn’t. We thought that ideas were everything that mattered in designing a product. In reality, not all ideas could be implemented (yet) because of technological limitations. Being realistic by knowing what technology that we’ll use is mandatory in product design.</ProjectListItem>
                                     </ProjectList>
                                 </ProjectSection>
                             </TextContainer>
