@@ -154,7 +154,7 @@ const Gemastik2021 = () => {
                                 </ProjectSection>
                                 <ProjectSection id='section3'>
                                     <ProjectSubHeading>Specifying user requirements</ProjectSubHeading>
-                                    <ProjectMainPoints>Our solution was to develop an integrated notification system that would notify users if they didn’t use their phones properly. Users and experts from different fields have helped us to evaluate this solution.</ProjectMainPoints>
+                                    <ProjectMainPoints>We proposed solutions primarily to increase users’ awareness of their phone usage. We used several brainstorming frameworks to help us along the way.</ProjectMainPoints>
                                     <ProjectParagraph>After the data collection process, we received a lot of feedback from our respondents, so we needed to break down the problems and sort out our priorities. We used several tools, such as an affinity diagram and a value-effort matrix. We chose these tools because they could help us to see a more holistic view of the problems.</ProjectParagraph>
                                     <ContentImageContainer>
                                         <ImageZoom
