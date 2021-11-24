@@ -14,7 +14,7 @@ const Footer = () => {
                     <FaEnvelope />
                 </SocialMediaIcon>
             </SocialMedia>
-            <Trademark>© 2021 Wening Dyah Locitaresmi</Trademark>
+            <Trademark>© Wening Dyah Locitaresmi 2021</Trademark>
             </FooterWrapper>
         </FooterContainer>
     )
