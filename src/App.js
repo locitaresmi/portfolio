@@ -8,6 +8,7 @@ import Sidebar from './components/Sidebar'
 import ResumePage from './pages/resume';
 import Gemastik2021 from './pages/Projects/Gemastik2021';
 import { AnimatePresence } from 'framer-motion'
+import NotFound from './pages/NotFound';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/about" component={AboutPage} exact />
           <Route path="/resume" component={ResumePage} exact />
           <Route path="/2021-Twing" component={Gemastik2021} exact />
+          <Route component={NotFound} />
         </Switch>
       </AnimatePresence>
     </>
