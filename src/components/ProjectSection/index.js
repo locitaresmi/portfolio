@@ -43,7 +43,7 @@ const appearRight = {
     }
 }
 
-const ProjectSection = ({id, projectYear, projectTitle, projectIssuer, projectImg, productName, productDescription, alt}) => {
+const ProjectSection = ({id, projectYear, projectTitle, projectIssuer, projectImg, productName, productDescription, alt, overlaytext}) => {
     
     const { ref, inView } = useInView();
     const right = useAnimation();
@@ -82,7 +82,7 @@ const ProjectSection = ({id, projectYear, projectTitle, projectIssuer, projectIm
                                 <ImgOverlay>
                                     {/* <ProductName>{productName}</ProductName>
                                     <ProductDescription>{productDescription}</ProductDescription> */}
-                                    <AdditionalDescription>Click to view project</AdditionalDescription>
+                                    <AdditionalDescription>{overlaytext}</AdditionalDescription>
                                 </ImgOverlay>
                             </ProjectLink>
                         </ImgWrap>

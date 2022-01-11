@@ -6,7 +6,8 @@ export const project1 = {
     projectImg: require('../../images/Twing Thumbnail.webp').default,
     productName: 'Twing',
     productDescription: 'Lorem ipsum dolor sir amet',
-    alt: 'Twing'
+    alt: 'Twing',
+    overlaytext: 'Click to view project'
 }
 
 // export const project2 = {
@@ -28,5 +29,6 @@ export const project3 = {
     projectImg: require('../../images/Ecosense Thumbnail.webp').default,
     productName: 'Ecosense',
     productDescription: 'Lorem ipsum dolor sir amet',
-    alt: 'Ecosense'
+    alt: 'Ecosense',
+    overlaytext: 'Click to view project (coming soon!)'
 }
