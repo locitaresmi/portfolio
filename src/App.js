@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css';
-import { Switch, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Home from './pages';
 import AboutPage from './pages/about';
 import Navbar from './components/Navbar'
@@ -12,27 +12,27 @@ import NotFound from './pages/NotFound';
 
 function App() {
 
-  const [ isOpen, setIsOpen ] = useState(false)
+  const [ $isOpen, setIsOpen ] = useState(false)
 
     const toggle = () => {
-        setIsOpen(!isOpen)
+      setIsOpen(!$isOpen)
     }
 
     const location = useLocation();
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Sidebar $isOpen={$isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       {/* initial={false} */}
-      <AnimatePresence exitBeforeEnter>
-        <Switch location={location} key={location.pathname}>
-          <Route path="/" component={Home} exact />
-          <Route path="/about" component={AboutPage} exact />
-          <Route path="/resume" component={ResumePage} exact />
-          <Route path="/2021-Twing" component={Gemastik2021} exact />
-          <Route component={NotFound} />
-        </Switch>
+      <AnimatePresence mode='wait'>
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Home />} exact> </Route>
+          <Route path="/about" element={<AboutPage />} exact> </Route>
+          <Route path="/resume" element={<ResumePage />} exact> </Route>
+          <Route path="/2021-Twing" element={<Gemastik2021 />} exact> </Route>
+          <Route element={<NotFound />}> </Route>
+        </Routes>
       </AnimatePresence>
     </>
   );

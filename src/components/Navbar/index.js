@@ -13,19 +13,19 @@ const Navbar = ({toggle}) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo onClick={toggleHome} exact to="/">W</NavLogo>
+                    <NavLogo onClick={toggleHome} to="/">W</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks exact to="/">Project</NavLinks>
+                            <NavLinks to="/">Project</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks exact to="/about">About</NavLinks>
+                            <NavLinks to="/about">About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks exact to="/resume">Resume</NavLinks>
+                            <NavLinks to="/resume">Resume</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
