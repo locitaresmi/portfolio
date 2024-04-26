@@ -1,9 +1,13 @@
+import twingThumbnail from '../../images/Twing Thumbnail.webp';
+import lituturThumbnail from '../../images/Litutur Thumbnail.webp';
+import FinkuThumbnail from '../../images/Finku Thumbnail.webp';
+
 export const project1 = {
     id: '#',
     projectYear: 2023,
     projectTitle: 'How does user onboarding influence the early experience in financial apps?',
     projectIssuer: 'Finku - Personal Financial Management App',
-    projectImg: require('../../images/Twing Thumbnail.webp').default,
+    projectImg: FinkuThumbnail,
     productName: 'Finku',
     productDescription: 'Lorem ipsum dolor sir amet',
     alt: 'Finku',
@@ -15,7 +19,7 @@ export const project2 = {
     projectYear: 2023,
     projectTitle: 'Increasing literacy through a pre-school reading app',
     projectIssuer: 'Ministry of State-Owned Enterprises of Indonesia',
-    projectImg: require('../../images/Ecosense Thumbnail.webp').default,
+    projectImg: lituturThumbnail,
     productName: 'Litutur',
     productDescription: 'Lorem ipsum dolor sir amet',
     alt: 'Litutur',
@@ -27,7 +31,7 @@ export const project3 = {
     projectYear: 2021,
     projectTitle: 'GEMASTIK 14 Final UX Design: Screen time optimisation',
     projectIssuer: 'Ministry of Education, Culture, Research and Technology of Indonesia',
-    projectImg: require('../../images/Twing Thumbnail.webp').default,
+    projectImg: twingThumbnail,
     productName: 'Twing',
     productDescription: 'Lorem ipsum dolor sir amet',
     alt: 'Twing',
