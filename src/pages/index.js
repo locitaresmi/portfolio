@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import ProjectSection from '../components/ProjectSection'
-import { project1, project3 } from '../components/ProjectSection/Data'
+import { project1, project2, project3 } from '../components/ProjectSection/Data'
 import ScrollToTop from '../components/ScrollToTop'
 import { motion } from 'framer-motion'
 
@@ -13,6 +13,7 @@ const Home = () => {
             <ScrollToTop />
             <HeroSection />
             <ProjectSection {...project1}/>
+            <ProjectSection {...project2}/>
             <ProjectSection {...project3}/>
             <Footer />
         </motion.div>

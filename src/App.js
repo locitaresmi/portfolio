@@ -31,7 +31,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} exact> </Route>
           <Route path="/resume" element={<ResumePage />} exact> </Route>
           <Route path="/2021-Twing" element={<Gemastik2021 />} exact> </Route>
-          <Route element={<NotFound />}> </Route>
+          <Route path="*" element={<NotFound />}> </Route>
         </Routes>
       </AnimatePresence>
     </>

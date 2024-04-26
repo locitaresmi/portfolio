@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
 
 export const ResumeContainer = styled.div`
     display: flex;
@@ -27,7 +26,7 @@ export const ResumeH1 = styled.h1`
     text-align: center;
 `
 
-export const ResumeLink = styled(LinkR)`
+export const ResumeLink = styled.a`
     margin-top: 24px;
     color: #393232;
     font-size: 24px;

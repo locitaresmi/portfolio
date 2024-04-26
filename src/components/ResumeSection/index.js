@@ -6,9 +6,9 @@ const ResumeSection = () => {
         <ResumeContainer>
         <ResumeContent>
             <ResumeH1>This is my resume</ResumeH1>
-            <ResumeLink to={{ pathname: "https://drive.google.com/file/d/1xvtqsdT6bdjSmku4_vhdEiYjUD90rBnD/view" }} target="_blank">Click here if the PDF won't appear</ResumeLink>
+            <ResumeLink href='https://drive.google.com/file/d/1Kuue2HuOApXIXmGvPdUVvNNuPNaLrc4l/preview' target="_blank">Click here if the PDF won't appear</ResumeLink>
         </ResumeContent>
-        <ResumeDisplay title="Wening Dyah Locitaresmi's CV" src="https://drive.google.com/file/d/1xvtqsdT6bdjSmku4_vhdEiYjUD90rBnD/preview" allow="autoplay"></ResumeDisplay>
+        <ResumeDisplay title="Wening Dyah Locitaresmi's CV" src="https://drive.google.com/file/d/1Kuue2HuOApXIXmGvPdUVvNNuPNaLrc4l/preview" allow="autoplay"></ResumeDisplay>
     </ResumeContainer>
 )
 }

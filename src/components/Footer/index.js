@@ -7,14 +7,14 @@ const Footer = () => {
         <FooterContainer>
             <FooterWrapper>
             <SocialMedia>
-                <SocialMediaIcon to={{ pathname: "https://www.linkedin.com/in/locitaresmi/" }} target="_blank">
+                <SocialMediaIcon href='https://www.linkedin.com/in/locitaresmi/' target="_blank">
                     <FaLinkedin />
                 </SocialMediaIcon>
-                <SocialMediaIcon to={{ pathname: "mailto:locitaresmi@gmail.com" }} target="_top">
+                <SocialMediaIcon href='mailto:locitaresmi@gmail.com' target="_top">
                     <FaEnvelope />
                 </SocialMediaIcon>
             </SocialMedia>
-            <Trademark>© Wening Dyah Locitaresmi 2021</Trademark>
+            <Trademark>© Wening Dyah Locitaresmi 2024</Trademark>
             </FooterWrapper>
         </FooterContainer>
     )

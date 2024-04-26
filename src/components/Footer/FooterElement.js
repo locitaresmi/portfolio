@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
 
 export const FooterContainer = styled.div`
     display: flex;
@@ -26,7 +25,7 @@ export const SocialMedia = styled.div`
     /* justify-content: space-between; */
     height: 3.5vh;
 `
-export const SocialMediaIcon = styled(LinkR)`
+export const SocialMediaIcon = styled.a`
     /* align-items: center;
     justify-content: center; */
     font-size: 1.5rem;
