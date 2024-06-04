@@ -16,15 +16,15 @@ export const project1 = {
 }
 
 export const project2 = {
-    id: '#',
+    id: '2023-Litutur',
     projectYear: 2023,
-    projectTitle: 'Increasing literacy through a pre-school reading app',
+    projectTitle: 'Increasing Literacy Through A Pre-school Reading App',
     projectIssuer: 'Ministry of State-Owned Enterprises of Indonesia',
     projectImg: lituturThumbnail,
     productName: 'Litutur',
     productDescription: 'Lorem ipsum dolor sir amet',
     alt: 'Litutur',
-    overlaytext: 'Click to view project (coming soon!)'
+    overlaytext: 'Click to view project'
 }
 
 export const project3 = {

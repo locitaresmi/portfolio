@@ -243,3 +243,21 @@ export const ProjectTrivia = styled.div`
 export const TriviaParagraph = styled.p`
 
 `
+
+export const LinkSpan = styled.a`
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 24px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #393232;
+
+    &:active{
+        color: #393232;
+    }
+    &:hover{
+        color: #393232;
+    }
+    &:visited{
+        color: #393232;
+    }
+`

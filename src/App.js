@@ -8,6 +8,7 @@ import Sidebar from './components/Sidebar'
 import ResumePage from './pages/resume';
 import Gemastik2021 from './pages/Projects/Gemastik2021';
 import Finku2023Retention from './pages/Projects/Finku2023Retention';
+import Litutur2023 from './pages/Projects/Litutur2023'
 import { AnimatePresence } from 'framer-motion'
 import NotFound from './pages/NotFound';
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/resume" element={<ResumePage />} exact> </Route>
           <Route path="/2021-Twing" element={<Gemastik2021 />} exact> </Route>
           <Route path="/2023-Finku-Retention" element={<Finku2023Retention />} exact> </Route>
+          <Route path="/2023-Litutur" element={<Litutur2023 />} exact> </Route>
           <Route path="*" element={<NotFound />}> </Route>
         </Routes>
       </AnimatePresence>
