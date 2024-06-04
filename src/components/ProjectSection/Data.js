@@ -1,17 +1,18 @@
 import twingThumbnail from '../../images/Twing Thumbnail.webp';
 import lituturThumbnail from '../../images/Litutur Thumbnail.webp';
-import FinkuThumbnail from '../../images/Finku Thumbnail.webp';
+// import FinkuThumbnail from '../../images/Finku Thumbnail.webp';
+import FinkuRetentionThumbnail from '../../images/Finku Retention Thumbnail.webp'
 
 export const project1 = {
-    id: '#',
+    id: '2023-Finku-Retention',
     projectYear: 2023,
-    projectTitle: 'How does user onboarding influence the early experience in financial apps?',
+    projectTitle: 'Uncovering the Cause of Low Retention in a Personal Financial Management App',
     projectIssuer: 'Finku - Personal Financial Management App',
-    projectImg: FinkuThumbnail,
+    projectImg: FinkuRetentionThumbnail,
     productName: 'Finku',
     productDescription: 'Lorem ipsum dolor sir amet',
     alt: 'Finku',
-    overlaytext: 'Click to view project (coming soon!)'
+    overlaytext: 'Click to view project'
 }
 
 export const project2 = {
