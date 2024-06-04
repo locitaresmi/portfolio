@@ -93,7 +93,7 @@ const Finku2023Retention = () => {
                                     <SidebarLink to="section5" smooth={true} duration={500} spy={true} exact={true} offset={-110}>4. Analysis</SidebarLink>
                                 </SidebarItem>
                                 <SidebarItem>
-                                    <SidebarLink to="section6" smooth={true} duration={500} spy={true} exact={true} offset={-110}>6. Shareback and Impact</SidebarLink>
+                                    <SidebarLink to="section6" smooth={true} duration={500} spy={true} exact={true} offset={-110}>5. Shareback and Impact</SidebarLink>
                                 </SidebarItem>
                                 {/* <SidebarItem>
                                     <SidebarLink to="section4" smooth={true} duration={500} spy={true} exact={true} offset={-110}>Key takeaways</SidebarLink>
@@ -196,7 +196,7 @@ const Finku2023Retention = () => {
                                     </ContentImageContainer>
                                 </ProjectSection>
                                 <ProjectSection id='section6'>
-                                    <ProjectSubHeading>Shareback and Impact</ProjectSubHeading>
+                                    <ProjectSubHeading>5. Shareback and Impact</ProjectSubHeading>
                                     <ProjectMainPoints>I compiled a comprehensive report and discussed the findings with stakeholders, highlighting user pain points and areas for improvement.</ProjectMainPoints>
                                     <ContentImageContainer>
                                         <ImageZoom
